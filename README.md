@@ -3,6 +3,7 @@ Uiautomator server for find element
 通过坐标定位控件,获取控件唯一属性
 # 使用说明
 使用三方包时，需要配置uidump.xml，否则编译不能通过
+'''
  <target name="compile" depends="-build-setup, -pre-compile">
         <javac encoding="${java.encoding}"
                 source="${java.source}" target="${java.target}"
@@ -31,3 +32,4 @@ Uiautomator server for find element
             <path path="${out.classes.absolute.dir}"/>
         </dex>
     </target>
+'''
