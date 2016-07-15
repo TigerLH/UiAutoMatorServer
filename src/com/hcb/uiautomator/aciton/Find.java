@@ -66,7 +66,7 @@ public class Find implements Action{
 		FindElement targetElement = new FindElement();
 		targetElement.setResourceId(resource_id);
 		targetElement.setText(text);
-		targetElement.setContentdesc(text);
+		targetElement.setContentdesc(contentdesc);
 		targetElement.setPkg(element.getPkg());
 		targetElement.setClassName(element.getClassName());
 		targetElement.setIndex(element.getIndex());
